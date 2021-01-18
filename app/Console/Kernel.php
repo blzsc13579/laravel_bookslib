@@ -7,18 +7,6 @@ use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
 
 class Kernel extends ConsoleKernel
 {
-	
-	protected $middleware = [
-    'Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode',
-    'Illuminate\Cookie\Middleware\EncryptCookies',
-    'Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse',
-    'Illuminate\Session\Middleware\StartSession',
-    'Illuminate\View\Middleware\ShareErrorsFromSession',
-
-    // appending custom middleware 
-    'MyApp\Http\Middleware\HttpsProtocol'       
-	];
-
     /**
      * The Artisan commands provided by your application.
      *
