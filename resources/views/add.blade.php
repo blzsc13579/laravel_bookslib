@@ -1,5 +1,5 @@
 @extends('layout')
-@include ('navbar')
+@extends('navbar')
 @section('content')
 <div class="col-sm-6">
 <form method="post" action="">
@@ -32,5 +32,4 @@
   <button type="submit" class="btn btn-primary">Submit</button> 
 </form>
 </div>
-
 @stop

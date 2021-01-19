@@ -15,8 +15,10 @@
 </head>
 
 <body> 
+@extends('header')
+<br>
 <div class="container"> @yield('content') </div>
-@include('footer')
+@extends('footer')
 </body>
 
 </html>

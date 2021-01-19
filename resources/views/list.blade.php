@@ -1,5 +1,5 @@
 @extends('layout')
-@include('navbar')
+@extends('navbar')
 @section('content')
 @if(Session::get('status'))
 <div class="alert alert-success alert-dismissible fade show" role="alert">
@@ -35,5 +35,4 @@
     @endforeach
   </tbody>
 </table>
-
 @stop              
