@@ -1,3 +1,4 @@
+<br>
 <footer class="section footer-classic context-dark bg-image fixed-bottom" style="background: #202435;">
         <div class="container">
           <div class="row row-30">
